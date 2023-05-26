@@ -1,5 +1,3 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
 import { FC, PropsWithChildren } from 'react';
 
 const SectionLayout: FC<PropsWithChildren> = ({ children }) => {

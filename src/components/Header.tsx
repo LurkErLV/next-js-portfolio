@@ -16,7 +16,7 @@ const Header: FC = () => {
   ];
 
   return (
-    <header className="bg-black w-full h-20 flex justify-center items-center fixed z-50">
+    <header className="bg-black w-full h-20 flex justify-center items-center z-50">
       <div className="w-[37.5rem] flex justify-between items-center mx-[1rem] box-border">
         <Link href="/">
           <Logo />
