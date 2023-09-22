@@ -11,13 +11,11 @@ type Link = {
 
 const Links: FC = () => {
   const links: Link[] = [
-    { title: 'GitHub', link: 'https://github.com/Hold404' },
-    { title: 'Telegram', link: 'https://t.me/hold404w' },
-    { title: 'Instagram', link: 'https://instagram.com/hold.404/' },
-    { title: 'Blog', link: 'https://blog.hold404.com' },
-    { title: 'Email', link: 'mailto:hold404.dev@gmail.com' },
-    { title: 'CV', link: 'https://hold404.com/cdn/CV.pdf' },
-    { title: 'LinkedIn', link: 'https://linkedin.com/in/hold404/' },
+    { title: 'GitHub', link: 'https://github.com/LurkErLV/' },
+    { title: 'Telegram', link: 'https://t.me/LurkErLV/' },
+    { title: 'Email', link: 'mailto:alberts@matrozis.dev/' },
+    { title: 'CV', link: 'https://matrozis.dev/CV.pdf/' },
+    { title: 'LinkedIn', link: 'https://linkedin.com/in/albertsmatrozis/' },
   ];
 
   return (

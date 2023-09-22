@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { FC } from 'react';
-import Logo from './icons/Logo';
 import Github from './icons/Github';
 
 type Navigation = {
@@ -12,14 +11,13 @@ const Header: FC = () => {
   const navigation: Navigation[] = [
     { title: 'Experience', link: '/experience' },
     { title: 'Links', link: '/links' },
-    { title: 'Blog', link: 'https://blog.hold404.com' },
   ];
 
   return (
     <header className="bg-black w-full h-20 flex justify-center items-center z-50">
       <div className="w-[37.5rem] flex justify-between items-center mx-[1rem] box-border">
         <Link href="/">
-          <Logo />
+          <img src='/images/avatar.jpg' className="rounded-full h-[40px]"  alt="" />
         </Link>
 
         <nav>
@@ -36,14 +34,14 @@ const Header: FC = () => {
             ))}
 
             <li>
-              <Link href="https://github.com/Hold404" className="sm:hidden">
+              <Link href="https://github.com/LurkErLV" target="_blank" className="sm:hidden">
                 <Github />
               </Link>
             </li>
           </ul>
         </nav>
 
-        <Link href="https://github.com/Hold404" className="hidden sm:block">
+        <Link href="https://github.com/LurkErLV" target="_blank" className="hidden sm:block">
           <Github />
         </Link>
       </div>

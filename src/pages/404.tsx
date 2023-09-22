@@ -8,7 +8,7 @@ const NotFoundPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Not Found - Hold404</title>
+        <title>Not Found - LurkEr</title>
       </Head>
       <SectionLayout>
         <Card>

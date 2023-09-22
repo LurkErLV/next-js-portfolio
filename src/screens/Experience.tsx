@@ -6,16 +6,16 @@ import SectionLayout from '@/layouts/SectionLayout';
 const Experience: FC = () => {
   const experience = [
     {
-      title: 'FrontEnd Developer at Radmir Games',
+      title: 'FrontEnd Developer at Network RP',
       details:
-        'Successfully developed game web interfaces based on CEF. Worked with Vue.js, pug and stylus.',
-      time: 'Oct 2022 – Jan 2023',
+        'Developed responsive game interfaces using Vue.js and Tailwind CSS.',
+      time: 'Sep 2023 – Present',
     },
     {
       title: 'FrontEnd Developer as a Freelancer',
       details:
-        'Worked as a freelancer. Developed websites and web applications. Used a different stack. Core technologies: React.js, Vue.js, TypeScript.',
-      time: 'Aug 2021 – Now',
+        'Developed websites and web applications. Used a different stack. Core technologies: React.js, Vue.js, TypeScript.',
+      time: 'Feb 2021 – Present',
     },
   ];
 

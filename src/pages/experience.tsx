@@ -6,7 +6,7 @@ const ExperiencePage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Experience - Hold404</title>
+        <title>Experience - LurkEr</title>
       </Head>
       <Experience />
     </>

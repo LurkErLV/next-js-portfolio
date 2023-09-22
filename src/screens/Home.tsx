@@ -20,18 +20,21 @@ type Data = {
 
 const Home: FC = () => {
   const data: Data = {
-    notification: 'Make love, not war. 💙',
-    fullName: 'Jegors Dorofejevs',
+    notification: 'Don\'t worry if something doesn\'t work. If everything was working, you\'d be fired.',
+    fullName: 'Albert Matrozis',
     status: 'FrontEnd Developer',
-    about: `Hello! My name is Jegor and I am an experienced FrontEnd developer specializing in interface development using React and Vue frameworks, as well as the TypeScript programming language.`,
+    about: `Hi! My name is Albert and I am an enthusiast in Frontend development. I specialize in website development using React.js, Vue.js, Nuxt.js and Next.js frameworks, I also have some experience with TypeScript.`,
     skills: [
       { icon: 'JavaScript.svg', link: 'https://www.javascript.com/' },
       { icon: 'TypeScript.svg', link: 'https://www.typescriptlang.org/' },
       { icon: 'ReactJs.svg', link: 'https://react.dev/' },
       { icon: 'NextJs.png', link: 'https://nextjs.org/' },
-      { icon: 'ReduxToolkit.svg', link: 'https://redux-toolkit.js.org/' },
       { icon: 'VueJs.svg', link: 'https://vuejs.org/' },
+      { icon: 'NuxtJs.png', link: 'https://nuxt.com/' },
+      { icon: 'ReduxToolkit.svg', link: 'https://redux-toolkit.js.org/' },
+      { icon: 'Pinia.png', link: 'https://pinia.vuejs.org/' },
       { icon: 'SCSS.png', link: 'https://sass-lang.com/' },
+      { icon: 'TailwindCSS.svg', link: 'https://tailwindcss.com/' },
     ],
   };
 
@@ -49,8 +52,8 @@ const Home: FC = () => {
           </div>
 
           <Image
-            className="hidden xsm:block"
-            src="/images/avatar.svg"
+            className="hidden xsm:block rounded-xl"
+            src="/images/avatar.jpg"
             alt="Avatar"
             width={80}
             height={80}

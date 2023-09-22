@@ -4,8 +4,7 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.svg" />
-        <title>Hold404</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <body>
         <Main />

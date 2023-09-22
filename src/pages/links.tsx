@@ -6,7 +6,7 @@ const LinksPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Contact - Hold404</title>
+        <title>Contact - LurkEr</title>
       </Head>
       <Links />
     </>
