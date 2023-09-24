@@ -26,13 +26,12 @@ const Links: FC = () => {
           <ul className="list-disc pl-10">
             {links.map((link: Link, index) => (
               <li key={index}>
-                {link.title + ' - '}
                 <Link
                   href={link.link}
-                  className="underline truncate"
+                  className="truncate hover:opacity-75 transition-opacity"
                   target="_blank"
                 >
-                  {link.link.replace('mailto:', '')}
+                  { link.title }
                 </Link>
               </li>
             ))}
