@@ -14,7 +14,7 @@ const Links: FC = () => {
     { title: 'GitHub', link: 'https://github.com/LurkErLV/' },
     { title: 'Telegram', link: 'https://t.me/LurkErLV/' },
     { title: 'Email', link: 'mailto:alberts@matrozis.dev/' },
-    { title: 'CV', link: 'https://matrozis.dev/CV.pdf/' },
+    { title: 'CV', link: 'https://matrozis.dev/cv' },
     { title: 'LinkedIn', link: 'https://linkedin.com/in/albertsmatrozis/' },
   ];
 

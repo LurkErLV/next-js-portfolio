@@ -11,6 +11,7 @@ const Header: FC = () => {
   const navigation: Navigation[] = [
     { title: 'Experience', link: '/experience' },
     { title: 'Links', link: '/links' },
+    { title: 'CV', link: '/cv' }
   ];
 
   return (
